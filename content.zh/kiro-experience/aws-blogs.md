@@ -20,6 +20,26 @@ bookToc: true
 
 ---
 
+## 使用 Kiro 和 MCP 自动化大规模升级 RDS MySQL 8.0 至 RDS MySQL 8.4
+
+**日期**：2026-05-22 | **分类**：Database
+
+介绍 RDS MySQL Upgrade Assistant 开源工具，可批量执行 Amazon RDS MySQL 8.0 到 8.4 主版本升级。通过 19 项 SQL 预检查引擎、自动化参数组迁移、蓝绿部署编排，所有作业都可以通过 shell 脚本或 Kiro IDE/CLI 的自然语言进行访问。工具结合了 MCP 服务器和 Kiro Steering 文件，实现自然语言驱动的升级编排。
+
+🔗 [阅读全文](https://aws.amazon.com/cn/blogs/china/using-kiro-mcp-automation-rds-mysql-8-0-rds-mysql-8-4/)
+
+---
+
+## 一种基于Web访问的Kiro CLI 共享访问实现
+
+**日期**：2026-05-07 | **分类**：Artificial Intelligence
+
+介绍 Webaccess KiroCLI Platform，一种基于 Web 终端的 TTY 共享访问架构，采用 Gotty+FastAPI+Vue 技术框架，结合 AWS IAM Identity Center 实现 SSO 零凭证分发，让开发者和运维人员无需本地安装即可通过浏览器使用完整的 Kiro CLI 能力。整个项目从需求分析到代码实现，全程使用 Kiro IDE 的 Spec 驱动开发流程完成。
+
+🔗 [阅读全文](https://aws.amazon.com/cn/blogs/china/based-on-web-kiro-cli-share-implement/)
+
+---
+
 ## 用 Kiro CLI 自动搭建 FluentBit 日志采集方案：两种 EKS 埋点数据落地 S3 Parquet 的实战对比
 
 **日期**：2026-04-24 | **分类**：Artificial Intelligence
