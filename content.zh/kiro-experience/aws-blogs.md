@@ -10,6 +10,26 @@ bookToc: true
 
 ---
 
+## 基于Amazon Quick与Amazon Bedrock AgentCore打造对话式 FinOps助手
+
+**日期**：2026-05-28 | **分类**：Artificial Intelligence
+
+介绍如何将 AWS 账单相关 API 通过 MCP 协议封装为工具，部署到 Amazon Bedrock AgentCore Runtime，并接入 Amazon Quick Chat Agent。文中对 awslabs 的 billing-cost-management-mcp-server 做了改造，所有改造均通过 Kiro 以 Vibe Coding 的方式完成。
+
+🔗 [阅读全文](https://aws.amazon.com/cn/blogs/china/based-on-amazon-quick-amazon-bedrock-agentcore/)
+
+---
+
+## 用 Kiro CLI 自动搭建 FluentBit 日志采集方案：两种 EKS 埋点数据落地 S3 Parquet 的实战对比
+
+**日期**：2026-04-24 | **分类**：Artificial Intelligence
+
+展示如何使用 Kiro CLI（AWS 推出的 AI 驱动命令行助手）配合 Amazon EKS MCP Server，通过自然语言对话，自动完成两种 FluentBit 日志采集方案的规划、搭建和验证。涵盖 Kiro CLI 的 Steering、Skills 和 MCP 集成等核心能力。
+
+🔗 [阅读全文](https://aws.amazon.com/cn/blogs/china/kiro-cli-fluentbit-logging-solution-eks-s3-parquet-comparison/)
+
+---
+
 ## 从 SDLC 到 AIDLC：CI&T 对 AI 驱动软件开发模式的探索及 Kiro 最佳实践
 
 **日期**：2026-03-30 | **分类**：DevOps
@@ -87,6 +107,16 @@ bookToc: true
 Kiro CLI 的 ACP 支持为 Agent 应用开发提供了一条新路径：将命令行工具转变为可编程的 Agent 后端，通过标准化协议暴露完整能力。开发者可以跳过 AI 基础设施的前期投入，专注于应用本身的业务逻辑和用户体验。
 
 🔗 [阅读全文](https://aws.amazon.com/cn/blogs/china/use-kiro-cli-as-agent-sdk-build-your-agent-app-with-one-click-subscription/)
+
+---
+
+## 三剑合璧Quick Suite + Agent Core + Kiro联动实践：海外物流报价助手实战
+
+**日期**：2026-01-12 | **分类**：Serverless
+
+使用 Amazon Kiro + Amazon Bedrock AgentCore + Amazon Quick Suite 的 Serverless 架构方案，通过 Kiro 的 Spec-Driven Development 模式完成 MCP 工具代码的开发和 AgentCore 托管部署，为跨境物流业务构建智能报价助手。
+
+🔗 [阅读全文](https://aws.amazon.com/cn/blogs/china/quick-suite-agent-core-kiro-logistics-quote-assistant/)
 
 ---
 
